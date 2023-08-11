@@ -3,9 +3,9 @@ Code for the Information theoretical perspective on the method of Entanglement W
 
 **simulation.py** is the main simulation high level logic.
 
-**random_generation_utils.py** contains functions that generation random objects
+**random_generation_utils.py** contains functions related to random generation.
 
-**criterion_utils.py** contains information theoretical related functions and entanglement criteria
+**criterion_utils.py** contains information theoretical related functions and entanglement criteria.
 
 **test_...** contains tests for the util functions and can be run with pytest.
 
