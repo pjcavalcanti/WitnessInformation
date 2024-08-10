@@ -10,3 +10,6 @@ Code for the Information theoretical perspective on the method of Entanglement W
 **test_...** contains tests for the util functions and can be run with pytest.
 
 **plots_notebook.ipynb** contains all plotting functions and table data calculations.
+
+
+The cpp_implementation_and_extension folder contains a C++ more efficient implementation of the simulation, approximately an order of magnitude faster. This implementation is still untested.
