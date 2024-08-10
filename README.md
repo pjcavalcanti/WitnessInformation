@@ -1,6 +1,8 @@
 # WitnessInformation
 Code for the Information theoretical perspective on the method of Entanglement Witnesses paper.
 
+https://arxiv.org/abs/2308.07744
+
 ## Files:
 - **simulation.py** is the main simulation high level logic.
 - **random_generation_utils.py** contains functions related to random generation.
