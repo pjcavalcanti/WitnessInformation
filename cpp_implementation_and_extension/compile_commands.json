@@ -1,0 +1,13 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-fopenmp",
+      "-I/opt/intel/oneapi/mkl/2024.2/include",
+      "comp1.cpp"
+    ],
+    "directory": "/home/paulo/code/infoWitness",
+    "file": "*.cpp"
+  }
+]

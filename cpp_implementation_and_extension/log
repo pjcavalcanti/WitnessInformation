@@ -1,0 +1,7 @@
+1. real_...cpp: Simple real matrices version to do item-wise matrix multiplication and trace inner product
+2. comp0_..cpp: Simple complex matrices version of 1. using a simple implementation of complex, not std::complex<T>
+3. comp1_..cpp: Version from 2. with an interface similar to std::complex, apparently now performance is the same with -O3 (std::complex was slower without optimizations)
+4. comp2_..cpp: Change custom Complex to std::complex<float> in 3. This actually made it slower. I will try my own Householder algorithm.
+5. implemented fixed-gauge QR decomposition in comp3.cpp and started comp4.cpp like comp3 but without the tests. stored previous versions in old_basic
+6. implemented in comp5cpp generation of random witness from partial transposition
+7. separated MatrixBatch abstraction from BipartiteStatesBatch and WitnessFromPartialTranposeBatch with inheritance, decreasing doubly written code and helping write tests with implementations of isPositive, isHermitian, trace, eigenvalues for MatrixBatch. Will start from comp7 now, separating MatrixBatch into its own header file.
