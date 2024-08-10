@@ -1,5 +1,5 @@
 # WitnessInformation
-Code for the Information theoretical perspective on the method of Entanglement Witnesses paper.
+Code for the "Information theoretical perspective on the method of Entanglement Witnesses" paper.
 
 https://arxiv.org/abs/2308.07744
 
